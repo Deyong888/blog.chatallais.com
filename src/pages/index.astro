@@ -1,11 +1,13 @@
 ---
 import type { IFrontmatter } from 'astro-boilerplate-components';
 
-import { CTA } from '@/partials/CTA';
+import CallToAtion from '@/partials/CallToAction';
 import { Hero } from '@/partials/Hero';
-import { ProjectList } from '@/partials/ProjectList';
+// Update the import path to point to the correct location
+import LogoCloud from '@/partials/LogoCloud'; 
 import { RecentPosts } from '@/partials/RecentPosts';
-import { Sponsors } from '@/partials/Sponsors';
+// Update the import path to point to the correct location
+import ZigZag from '@/partials/ZigZag.astro';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/Posts';
@@ -20,8 +22,8 @@ const { description } = AppConfig;
 
 <Base head={{ title, description }}>
   <Hero />
-  <Sponsors />
-  <ProjectList />
+  <LogoCloud />
+  <ZigZag />
   <RecentPosts postList={lastThreePosts} />
-  <CTA />
+  <CallToAtion />
 </Base>

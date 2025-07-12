@@ -1,8 +1,8 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 4th Lorem ipsum dolor sit
+title: 实战篇：十个案例变身AI达人
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-04T00:00:00Z
+pubDate: 2025-02-26T00:00:00Z
 imgSrc: '/assets/images/image-post3.jpeg'
 imgAlt: 'Image post 3'
 ---
