@@ -50,10 +50,8 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
-    "@types/next": "^9.0.0",
     "astro-boilerplate-components": "^1.0.16",
     "date-fns": "^2.30.0",
-    "next": "^15.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
