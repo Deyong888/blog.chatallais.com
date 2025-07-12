@@ -1,7 +1,9 @@
 ---
 import type { IFrontmatter } from 'astro-boilerplate-components';
 
-import CallToAtion from '@/partials/CallToAction';
+import CallToAction from '@/partials/CallToAction';
+import FAQ from '@/partials/FAQ.astro';
+import Feature from '@/partials/Feature.astro';
 import { Hero } from '@/partials/Hero';
 // Update the import path to point to the correct location
 import LogoCloud from '@/partials/LogoCloud'; 
@@ -24,6 +26,8 @@ const { description } = AppConfig;
   <Hero />
   <LogoCloud />
   <ZigZag />
+  <Feature />
+  <FAQ />
   <RecentPosts postList={lastThreePosts} />
-  <CallToAtion />
+  <CallToAction />
 </Base>
